@@ -4,42 +4,25 @@
   <meta charset="utf-8">
   <title>Question 2 - CSS</title>
   <style>
-    :root {
-      --link: #0645ad;    
-      --visited: #0b0080;
-      --focus: #005fcc;
+  .mainsection a {
+    color: #0645ad;      
+    text-decoration: underline;
     }
 
-    .mainsection a {
-      color: var(--link);
-      text-decoration: underline;
-    }
-    .mainsection a:visited {
-      color: var(--visited);
-    }
-    .mainsection a:hover {
-      text-decoration-thickness: 2px; 
-    }
+  .mainsection a:visited {
+    color: #0b0080;           
+  }
 
+  .mainsection a:hover {
+    text-decoration-thickness: 2px; 
+  }
 
-    .mainsection a:focus-visible {
-      outline: 3px solid var(--focus);
-      outline-offset: 2px;
-      border-radius: 4px;
-    }
+  .mainsection a:focus-visible {
+    outline: 3px solid #005fcc; 
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
 
-
-    .mainsection li a {
-      display: block;
-      padding: 0.5rem 0.75rem;
-    }
-
-
-    .mainsection h1 {
-      margin: 0 0 0.5rem;
-      font-size: 1.75rem;
-      line-height: 1.2;
-    }
 
   </style>
 </head>
